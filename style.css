@@ -1,0 +1,107 @@
+.my-style {
+   background-color: #C9D8B6; <!-- for background change-->
+   color: #57837B;<!-- for letter color change-->
+}
+#my-id {
+  background-color:#FDD2BF; <!--#for id .for style p for element>>
+  color: #DF5E5E;
+}
+
+p{
+  background-color: #419197;<!--apply for paragaraph-->
+  color: #476072;
+}
+
+h1 {
+  color: #000; <!-- to apply for h1 tag etc-->
+}
+* {
+  margin: 0; <!-- default style make equals-->
+  padding: 0;
+}
+.my_style {
+  background-color: #C9D8B6;<!--padding and margin-->
+  color: #57837B;
+  padding-left: 270px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px;<!-- inspect ctrl shift i-->
+
+}
+.parent {
+  background-color: #362222;
+  width: 100%;
+  height: 300px;
+}
+.child {
+  <!--inlineblock comes nxt to each other boxes-->
+  background-color: #000000;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 20px;
+}
+
+
+
+
+<!-- media quaries-->
+body{
+  background-color: #D7E5CA;
+}
+<!--min this according to screen size that color changes 0-768 768-1024 etc zoom in out color chnge-->
+@media(min-width: 768px) {
+  body {
+    background-color: #FCD8D4;
+  }
+}
+@media(min-width: 1024px) {
+  body {
+    background-color: #ECD662;
+  }
+}
+@media(min-width: 1280px) {
+  body {
+    background-color: #A3A847;
+  }
+}
+
+<!--max width-->
+@media(max-width: 768px) {
+  body {
+    background-color: #FCD8D4;
+  }
+}
+
+<!--flex box -->
+body {
+  background-color: #000;
+  padding: 200px;
+}
+
+.parent {
+  background-color: #D9DD6B;
+  width:100%;
+  height: 500px;
+  display: flex; <!--flex colom to row change-->
+  gap: 5px;
+  flex-wrap: wrap; <!--flex wrap used to come boxes arranged manner-->
+  justify-content: center;<!--it is used to come boxes left right center-->
+  align-items: baseline;<!-- 2 boxes same size in down side-->
+
+}
+
+.child {
+  background-position: #D9DD6B;
+  width: 200px;
+  height: 200px;
+
+}
+<!--2 different color box crrate-->
+.child2 {
+  background-position: #FDE5D4;
+  width: 200px;
+  height: 200px;
+
+}
